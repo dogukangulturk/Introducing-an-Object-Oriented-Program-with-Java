@@ -8,7 +8,7 @@ public class SelamTest {
         String cevap = nesne.selamSoyle("Ali");
         System.out.println(cevap);
 
-        cevap = nesne.selamSoyle("Zeynepp");
+        cevap = nesne.selamSoyle("Zeynep");
         System.out.println(cevap);
 
         System.out.println("World: " + nesne.world);
