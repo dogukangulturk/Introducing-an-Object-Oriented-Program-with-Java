@@ -3,8 +3,7 @@ package ch02;
 public class ValuesOfExpressions {
 
 	public static void main(String[] args) {
-		int k = 2_147_483_647; // Max limit of an int number in java
-
+		int k = 2_147_483_647; // Max limit int
 		int i = k + 1;
 		System.out.println(i);
 
@@ -16,7 +15,6 @@ public class ValuesOfExpressions {
 
 		System.out.println();
 
-		// m may not have been initialized!
 		// System.out.println(m);
 	}
 }
