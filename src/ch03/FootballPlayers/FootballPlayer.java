@@ -1,4 +1,4 @@
-package FootballPlayers;
+package ch03.FootballPlayers;
 
 public class FootballPlayer {
     int no;
