@@ -1,10 +1,7 @@
 package ch05.decision;
 
 public class IfElseDemo {
-    
-    /**
-     * @param args
-     */
+
     public static void main(String[] args) {
     	
         String testscore = args[0];
