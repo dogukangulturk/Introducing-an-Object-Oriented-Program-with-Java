@@ -17,7 +17,7 @@ public class BreakAndContinueWithLabel {
 				if (arrayOfInts[i][j] == searchfor) {
 					foundIt = true;
 					System.out.println("Found " + searchfor + " at " + i + ", " + j);
-					continue;
+					 break here;
 				}
 			}
 		}
