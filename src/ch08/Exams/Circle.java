@@ -4,20 +4,20 @@ public class Circle {
     double yaricap;
     double pi = 3.14;
 
-    public Circle(){
+    public Circle() {
         this(10.0);
     }
 
-    public Circle(double radius){
-        yaricap = radius;
+    public Circle(double radius) {
+        this.yaricap = radius;
     }
 
-    double alan(){
-        double alan = pi*(yaricap*yaricap);
+    double alan() {
+        double alan = pi * (yaricap * yaricap);
         return alan;
     }
 
-    double cevre(){
+    double cevre() {
         double cevre = 2 * pi * yaricap;
         return cevre;
     }
