@@ -1,6 +1,6 @@
 package ch10.packaging.packageB;
 
-import ch10.*; // Only imports the classes under the package "org"
+//import ch10.*; // Only imports the classes under the package "org"
 
 import ch10.packaging.packageX.ClassX;
 import ch10.packaging.packageX.ClassZ;

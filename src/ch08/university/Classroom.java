@@ -1,11 +1,19 @@
 package ch08.university;
 
 public class Classroom {
-    int floor;
-    int no;
-    Course[] courses;
+    private int floor;
+    private int no;
+    private Course[] courses;
 
+    void setFloor(int floor) {
+        this.floor = floor;
+    }
 
+    void setNo(int no) {
+        this.no = no;
+    }
 
-
+    void setCourses(Course[] courses) {
+        this.courses = courses;
+    }
 }

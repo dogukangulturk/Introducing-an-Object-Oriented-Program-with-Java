@@ -4,7 +4,9 @@ package ch08.university;
 public class Test {
 
 	public static void main(String[] args) {
-
+        Classroom zeminKat = new Classroom();
+            zeminKat.setFloor(0);
+            zeminKat.setNo(2);
 
         Department departman2 = new Department();
         departman2.name = "Philosopy";
@@ -20,6 +22,7 @@ public class Test {
 
         Course course3 = new Course();
         course3.name = "Ethics";
+
 
         Student student2 = new Student();
         student2.name = "Dogukan Gulturk";
