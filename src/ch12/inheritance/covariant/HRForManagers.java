@@ -1,4 +1,4 @@
-package org.javaturk.oopj.ch12.inheritance.covariant;
+package ch12.inheritance.covariant;
 
 import ch12.factories.factory3.Manager;
 import ch12.factories.factory3.Employee;

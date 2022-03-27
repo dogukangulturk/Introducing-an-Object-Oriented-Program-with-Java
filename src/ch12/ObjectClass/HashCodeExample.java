@@ -4,7 +4,7 @@ package ch12.ObjectClass;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import org.javaturk.oopj.ch12.factories.factory3.Employee;
+import ch12.factories.factory3.Employee;
 
 
 public class HashCodeExample {
